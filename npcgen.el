@@ -7,16 +7,9 @@
   (+ (d6) (d6) (d6)))
 
 (defun mod-stat (stat)
+  (check-type stat integer)
   (cond ((<= stat 1) -5)
-	((and (>= stat 2) (<= stat 3)) -4)
-	((and (>= stat 4) (<= stat 5)) -3)
-	((and (>= stat 6) (<= stat 7)) -2)
-	((and (>= stat 8) (<= stat 9)) -1)
-	((and (>= stat 10) (<= stat 11)) 0)
-	((and (>= stat 12) (<= stat 13)) 1)
-	((and (>= stat 14) (<= stat 15)) 2)
-	((and (>= stat 16) (<= stat 17)) 3)
-	((and (>= stat 18) (<= stat 18)) 4)
+	((and (>= stat 2) (<= stat 19)) (- (floor (/ stat 2)) 5))
 	(5)))
 
 
