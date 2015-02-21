@@ -1,5 +1,16 @@
 ;;; Dice roller for old World of Darkness in Elisp
 
+;; How to use it:
+;; M-:
+;; (load-file "wod.el")
+;; M-:
+;;; If not specialised
+;; (roll nrAtrDice nrSkillDice DC)
+;;; If specialised
+;; (roll nrAtrDice nrSkillDice DC t)
+
+;; wod-examples.txt provides some outputs.
+
 (defvar *rolls* '())
 (defvar *re-rolls* '())
 (defvar *fail* 0)
@@ -43,7 +54,8 @@
   
   (progn
     (switch-to-buffer-other-window "*results*")
-    (erase-buffer)
+    (insert "###########\n")
+					;    (erase-buffer)
     
     (insert "Here are all rolls for DC " (number-to-string dc) "\n\t")
 
@@ -64,6 +76,12 @@
 	    "Evaluation: \t\t"(number-to-string (- *win* *fail*)) "\n\n\t"
 	    (cond ((equal (- *win* *fail*) 0) "Neither success not failure.")
 		  ((> *win* *fail*) "You have succeeded.")
-		  ((< *win* *fail*) "You have failed.")))))
+		  ((< *win* *fail*) "You have failed.")))
 
+    (insert "\n\n")))
+
+(defun test ()
+  "This function is for testing, simply generates 50 ouputs of roll function with different inputs."
+  (dotimes (i 50)
+    (roll (+ 1 (random 6)) (random 5) (+ 3 (random 6)) (oddp i))))
 

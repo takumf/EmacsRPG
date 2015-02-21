@@ -1,0 +1,1063 @@
+###########
+Here are all rolls for DC 7
+	10 4 7 3 4 
+
+Specialist got the following re-rolls:
+	6 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	3 2 4 7 9 1 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	8 9 8 5 6 3 8 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	10 7 3 9 4 2 7 3 
+
+Specialist got the following re-rolls:
+	10 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	8 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	8 4 7 3 9 4 10 10 
+
+Specialist got the following re-rolls:
+	2 2 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	1 10 2 10 7 2 
+
+Specialist got the following re-rolls:
+	7 5 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	7 8 6 2 9 1 
+
+Number of successes	4
+Number of failures	1
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	5 7 10 8 4 2 3 8 8 6 
+
+Specialist got the following re-rolls:
+	9 
+
+Number of successes	5
+Number of failures	0
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	2 8 4 10 6 
+
+Specialist got the following re-rolls:
+	8 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	8 10 8 4 7 7 
+
+Specialist got the following re-rolls:
+	6 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	3 8 9 9 1 4 6 2 
+
+Number of successes	6
+Number of failures	1
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	9 9 4 5 2 6 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	2 1 1 10 
+
+Specialist got the following re-rolls:
+	3 
+
+Number of successes	0
+Number of failures	2
+Evaluation: 		-2
+
+	You have failed.
+
+###########
+Here are all rolls for DC 3
+	2 4 5 5 2 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	5 10 9 5 3 3 5 3 9 
+
+Specialist got the following re-rolls:
+	10 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	2 3 6 3 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	2 10 9 5 6 8 10 
+
+Specialist got the following re-rolls:
+	6 7 
+
+Number of successes	6
+Number of failures	0
+Evaluation: 		6
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	4 9 5 3 8 2 7 1 10 
+
+Specialist got the following re-rolls:
+	2 
+
+Number of successes	6
+Number of failures	1
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	4 8 5 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	8 3 10 6 10 7 
+
+Specialist got the following re-rolls:
+	1 5 
+
+Number of successes	5
+Number of failures	0
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	8 1 9 4 5 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	2 7 4 9 5 10 
+
+Specialist got the following re-rolls:
+	4 
+
+Number of successes	5
+Number of failures	0
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	6 5 6 2 7 3 7 1 8 10 
+
+Specialist got the following re-rolls:
+	7 
+
+Number of successes	8
+Number of failures	1
+Evaluation: 		7
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	6 3 3 9 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	10 4 8 10 4 10 9 
+
+Number of successes	5
+Number of failures	0
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	1 9 1 8 8 8 
+
+Number of successes	4
+Number of failures	2
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	10 10 1 2 4 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	7 4 7 7 4 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	9 4 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	8 1 8 7 5 5 8 
+
+Number of successes	3
+Number of failures	1
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	2 7 2 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	5 4 8 2 9 1 9 7 3 
+
+Number of successes	3
+Number of failures	1
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	4 9 8 6 10 8 5 1 2 
+
+Number of successes	7
+Number of failures	1
+Evaluation: 		6
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	6 8 5 9 9 6 5 6 4 
+
+Number of successes	9
+Number of failures	0
+Evaluation: 		9
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	9 3 8 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	1 6 1 8 1 1 2 
+
+Number of successes	2
+Number of failures	4
+Evaluation: 		-2
+
+	You have failed.
+
+###########
+Here are all rolls for DC 8
+	1 2 2 10 
+
+Number of successes	1
+Number of failures	1
+Evaluation: 		0
+
+	Neither success not failure.
+
+###########
+Here are all rolls for DC 3
+	6 8 5 3 8 2 5 1 2 9 
+
+Number of successes	7
+Number of failures	1
+Evaluation: 		6
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	8 10 7 9 8 6 3 
+
+Number of successes	7
+Number of failures	0
+Evaluation: 		7
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	2 3 5 10 1 10 7 7 
+
+Number of successes	5
+Number of failures	1
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	9 1 8 10 
+
+Number of successes	3
+Number of failures	1
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	6 5 5 6 7 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	5 1 9 5 1 4 8 10 1 
+
+Number of successes	5
+Number of failures	3
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	2 7 2 6 5 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	1 9 9 7 
+
+Number of successes	3
+Number of failures	1
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	2 3 9 2 10 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	8 5 4 8 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	6 9 1 
+
+Number of successes	1
+Number of failures	1
+Evaluation: 		0
+
+	Neither success not failure.
+
+###########
+Here are all rolls for DC 5
+	6 6 1 8 1 7 2 2 9 
+
+Number of successes	5
+Number of failures	2
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	1 7 7 5 1 8 
+
+Number of successes	4
+Number of failures	2
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	7 5 3 2 2 9 2 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	7 9 6 6 7 3 
+
+Number of successes	5
+Number of failures	0
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	4 9 2 3 5 6 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	2 7 4 5 9 9 1 7 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	4 6 2 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	8 7 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	9 5 1 
+
+Number of successes	1
+Number of failures	1
+Evaluation: 		0
+
+	Neither success not failure.
+
+###########
+Here are all rolls for DC 7
+	6 9 10 4 10 9 1 10 
+
+Specialist got the following re-rolls:
+	9 10 9 
+
+Number of successes	5
+Number of failures	1
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	8 1 5 7 4 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	5 1 8 2 3 5 8 
+
+Number of successes	4
+Number of failures	1
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	9 1 5 7 5 3 3 
+
+Number of successes	4
+Number of failures	1
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	2 5 10 7 2 
+
+Specialist got the following re-rolls:
+	10 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	2 2 10 3 6 
+
+Specialist got the following re-rolls:
+	10 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	9 3 2 9 6 7 6 1 2 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	3 2 1 3 
+
+Number of successes	0
+Number of failures	1
+Evaluation: 		-1
+
+	You have failed.
+
+###########
+Here are all rolls for DC 8
+	3 2 2 3 
+
+Number of successes	0
+Number of failures	0
+Evaluation: 		0
+
+	Neither success not failure.
+
+###########
+Here are all rolls for DC 5
+	6 5 2 5 10 1 7 
+
+Specialist got the following re-rolls:
+	10 
+
+Number of successes	5
+Number of failures	1
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	6 4 2 4 8 10 3 10 3 4 
+
+Specialist got the following re-rolls:
+	7 4 
+
+Number of successes	7
+Number of failures	0
+Evaluation: 		7
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	3 
+
+Number of successes	0
+Number of failures	0
+Evaluation: 		0
+
+	Neither success not failure.
+
+###########
+Here are all rolls for DC 6
+	2 7 6 1 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	8 8 3 10 9 
+
+Specialist got the following re-rolls:
+	7 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	3 7 6 7 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	2 5 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	3 8 9 3 10 4 6 6 
+
+Specialist got the following re-rolls:
+	8 
+
+Number of successes	5
+Number of failures	0
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	10 1 3 5 10 4 8 
+
+Number of successes	4
+Number of failures	1
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	6 8 5 4 9 1 4 3 
+
+Number of successes	4
+Number of failures	1
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	9 1 2 3 6 4 
+
+Number of successes	1
+Number of failures	1
+Evaluation: 		0
+
+	Neither success not failure.
+
+###########
+Here are all rolls for DC 4
+	5 2 1 4 1 8 
+
+Number of successes	3
+Number of failures	2
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	3 5 7 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 7
+	2 10 9 3 5 9 5 
+
+Number of successes	3
+Number of failures	0
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	5 10 1 6 
+
+Number of successes	2
+Number of failures	1
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	8 3 6 3 10 5 
+
+Number of successes	6
+Number of failures	0
+Evaluation: 		6
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	9 10 9 4 3 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	5 3 10 3 10 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	10 8 10 1 
+
+Number of successes	3
+Number of failures	1
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 3
+	2 7 7 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	4 4 1 1 4 
+
+Number of successes	0
+Number of failures	2
+Evaluation: 		-2
+
+	You have failed.
+
+###########
+Here are all rolls for DC 7
+	5 10 3 8 1 2 7 
+
+Number of successes	3
+Number of failures	1
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	8 3 2 4 1 
+
+Number of successes	1
+Number of failures	1
+Evaluation: 		0
+
+	Neither success not failure.
+
+###########
+Here are all rolls for DC 7
+	9 7 1 8 3 10 
+
+Number of successes	4
+Number of failures	1
+Evaluation: 		3
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	7 7 4 8 1 
+
+Number of successes	3
+Number of failures	1
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	2 2 3 7 8 
+
+Number of successes	2
+Number of failures	0
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	9 1 1 3 7 6 8 
+
+Number of successes	4
+Number of failures	2
+Evaluation: 		2
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	5 2 10 2 5 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	1 9 10 5 3 9 9 2 
+
+Number of successes	5
+Number of failures	1
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 6
+	9 6 6 4 8 10 
+
+Number of successes	5
+Number of failures	0
+Evaluation: 		5
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 5
+	8 
+
+Number of successes	1
+Number of failures	0
+Evaluation: 		1
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 4
+	3 10 8 4 4 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
+###########
+Here are all rolls for DC 8
+	9 8 8 9 2 4 
+
+Number of successes	4
+Number of failures	0
+Evaluation: 		4
+
+	You have succeeded.
+
