@@ -1,0 +1,243 @@
+#+STARTUP: indent
+#+STARTUP: hidestars
+#+STARTUP: oddeven
+ 
+* Lets get started with the magic!
+** What is this Emacs Lisp (Elisp) anyway?
+Emacs is a customizable text editor, I hope you got the gist of it at this
+point and start to feel comfortable using it. Or at least, begin to wrap
+your head around.
+In the meantime, I requested from you to use commands inside the mini-
+buffer.
+What it was in essence, the execution of small commands from Emacs internal
+programming language. Small parts, but this is a natural starting point.
+This is actually the main power behind Emacs, all the text related tasks
+can be automated if you can only see the way to do it.
+*** Is it only about text?
+Actually, no. Elisp is perfectly capable of numerical computation and
+any other programming task you want. It might just not perform to the
+desired level.
+**** So what is the point?
+Languages made with single purpose behind them have the edge in task
+they were design for in mind, by person on people with particular need.
+In case of Emacs this purpose was automation of text-based tasks.
+It will not get to numerical speed of Fortran (Engineering language,
+one of the oldest still in use).
+It will not get the versatility of Python, Perl or Ruby out of the box.
+What it will do, is allowing you to program nearly all boring tasks
+that relate to manipulation on text. As a GM or player you are likely
+not interested above both points relating to Fortran and Python/Ruby/
+Perl. You will however see the merit of generating notes, NPCs, names,
+maps and many other things without the need to use internet or other
+external programs.
+** OK, I'm kinda convinced. How do I do it?
+Open the file linked in the original post. Do it with split-sceen so that
+you will be able to track description here and source code simultaneously.
+Pretty neat feature after all.
+Before going further, please open mini-buffer and type:
+ 
+linum-mode
+ 
+if it was not enabled by defaults.
+*** Line 1
+All lines that start with ; are considered comments. They are not read
+while computer checks the program. General rule of thumb states:
+the more ; before comment the more important it is.
+*** Lines 3-5
+This is the very first function definition. It starts with defun,
+signing the fact that what is inside parentheses is, in fact, a function
+that you want to create.
+**** defun syntax
+(defun name-of-function (optional-arguments)
+    "Description on purpose and usage of function."
+    body of function)
+ 
+What can get tricky is the parenthesis syntax. It works from innermost
+expression outward. Here are some examples:
+ 
+(+ 1 2 3) => 6
+(- 3 (+ 2 1)) => (- 3 3) => 0
+ 
+If you don't want your function to take any arguments, leave the
+optional-parameters as empty pair of parentheses: () just like in
+the example.
+ 
+If your function does not take any parameters, don't add anything
+while executing it! (some-function) and (some-function ()) are totally
+different things!
+ 
+However, I encourage you to later execute (d6 '()) and (d6 ()) in
+any way you like. Read the error messages, make sure you get the
+gist of the way Elisp wants to communicate problems. Insanely important
+skill, but even trained programmers can mess this part up.
+ 
+**** How can I execute functions?
+Before executing anything you have to evaluate the function. To do so
+go to the end of the function definition (right after the closing
+parentheses) and hit:
+ 
+C-x C-e
+ 
+If everything is OK, the only thing that will happen should be the
+name of the function printed in the mini-buffer.
+ 
+To execute it, there are two most popular ways:
+***** Within the file
+Type somewhere in the file
+ 
+(name-of-function optional-parameter-or-parameters)
+ 
+and hit C-x C-e again, right after the closing paren.
+***** Outside of the file
+Hit M-: (Left Alt and :), you will be prompted for name of function
+you want to execute. Type:
+ 
+(name-of-function optional-parameters)
+ 
+hit enter and watch the results.
+**** How does (d6) work?
+It first generates a random number. Function random takes one positive
+integer as the parameter and return an integer from 0 to parameter - 1
+ 
+Example, possible outputs of (random 4) are:
+0, 1, 2, 3
+ 
+So to make d4 out of it, we have to add 1. Hence, in d6 function we
+first generate a number from 0 up to and including 5, then add 1 to
+the result. Try it out, make fabled d13 or other wacky dice.
+*** Lines 7-9
+Similar. We simply add outputs from calling d6 three times.
+Yes, +,-,* and / (add, subtract, multiply and divide) can take any number
+of inputs.
+*** Line 12
+This is how we define global variable. There are some things to note:
+ 
+Asterisks in the name are not required, but they are a convention that
+should be respected. Other programmers will find it as a good marker
+if they would like to change or review the code themselves.
+ 
+There is one peculiar thing after *stat-names*, sometimes hard to spot.
+In Elisp (and other Lisps, it is a whole family of programming languages
+that have other applications), it is a way to denote lists. *stat-names*
+is not just a value, it is a container with values. In this case, list
+of ability names.
+*** Lines 14-17
+Just as in documentation string, we will roll all statistics. 3d6 in
+order, grognard style.
+**** How does it work?
+We are using something that is a type of loop. Loops in programming
+are the means to iterate a particular procedure. In case of Elisp,
+one of the most basic and easiest was to do so is dolist loop.
+***** dolist syntax
+(dolist (index list-you-iterate-through)
+    what-you-want-to-do-with-index)
+ 
+Index is simply a short version, a type of 'joker' that simply
+represents element of the list.
+***** insert syntax
+(insert any-number-of-things-you-want-to-print-to-file)
+ 
+As above. It simply inserts its arguments into the file where
+it is executed.
+****** What is this "\t" and "\n"?
+These are specific types of characters that mean to most modern
+programming languages respectively a tabulator and new line.
+There are more, but these two are most common and important.
+***** numbert-to-string syntax
+Honestly, works just as advertised. Takes a number and makes it into
+the string. For computers "0" and 0 are NOT the same things.
+*** Lines 19-23
+**** switch-to-buffer-other-window syntax
+(switch-to-buffer-other-window syntax "name-of-buffer-to-switch-to")
+ 
+This is going to open new buffer window via split-screens of any
+name you want put as parameter.
+Further operations will be done in that buffer.
+**** erase-buffer
+Here it is commented out, so it will not be executed. If you remove
+; from the source code it will, just as name suggests, erase all of
+the contents of the buffer you provided as parameter.
+**** We invocate generate-stats to print in buffer.
+**** We insert the new line, to separate results of generate-stats
+** Do I must evaluate everything all the time?
+Hell no! If you already have an Elisp program you can just go to the
+mini-buffer and type
+ 
+eval-buffer
+ 
+And whole file will be evaluated. You can now call functions you defined
+any time you want.
+** Is it all? All that writing and for what?
+Are you kidding me? This is only an introduction and most bare-bones
+generator possible. Here is a list of stuff we will add:
+ 
+Ability score modifiers
+ 
+HP, Attack, Equipment and other value tracker
+ 
+Ability to keep the needed stuff about character to roll for stuff
+ 
+    Expanding this point to keep data on whole party and antagonists
+ 
+Background generator
+ 
+Skills
+ 
+Possibility to advance the character
+ 
+Adding option to simply generate from templates
+ 
+    Bunch of minions with already rolled initiative
+ 
+    NPCs with all of the above perks
+ 
+    Honestly, start adding your ideas to this list
+ 
+Assert automatically if generated character is valid according to rules
+ 
+** I'm not really convinced. There are already programs to do that!
+Yes, but are there available for all systems? Plus you are now learning
+an important and versatile skill by doing something that, ultimately,
+will allow you to make programs on your own. With a text editor alone.
+ 
+Less of a perk if you can program already, but I doubt you went through
+this tutorial knowing (E)lisp but not knowing Emacs or any previous idea
+how to make character generator. If I am mistaken, prove me wrong.
+ 
+Ultimately, think about it like that: You are not learning how to use
+the editor, it is a toolbox. You can construct on your own program that
+will fit all your needs!
+ 
+Imagine having your own program, that integrates (N)PC generator, random
+tables database that can be 'rolled' with a single command, time-line,
+plot notes and all other whatnot you use (or want to use) in your games.
+** Is it worth the effort?
+I'm biased, but I think the answer is 'yes'. Provided you are actually
+interested. Even if you don't want to continue, you have basics of Emacs,
+rudimentary skill in org-mode and learned the bare minimum of Elisp to
+to write your own very small and basic programs if there will ever any
+need to make them.
+* How can I continue or get help?
+At any time, you can hit the following combination:
+ 
+C-h f
+ 
+and ask for definition of any function.
+* Are there more commands? Where can I find them?
+** Get more commands
+Just to get the gist of amount of available commands, return to your
+Elisp source file, go to the bottom and hit ANY letter. Done? OK, now
+hit
+ 
+C-M-i (Left Control + Left Alt + i)
+ 
+and watch at the amount of functions available. This is auto-completion
+tool. You can go to the buffer that opened and browse them. You can
+ask for definitions (as above) or choose one you would pick anyway.
+ 
+Try to rewrite this program on your own, but instead of typing functions,
+ask for auto-completion each time after typing 2-4 characters by yourself.
+* Nice, whats next?
+Next lessons are going to be either about more advanced features of org-mode
+or further augmenting the Basic d20 generator from today's example. If you
+want one more then another, comment in original thread.

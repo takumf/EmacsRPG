@@ -1,0 +1,95 @@
+	Lesson 0, Installation of Emacs
+
+Hello and  welcome to  the first  part of  tutorials regarding  use of
+Emacs for your tabletop gaming sessions.
+
+Lets start from the beginning, the installation of all the software we
+will need for most of the GM work that Emacs can be adapted.
+
+Some notes about platform issues:
+
+If you are a Windows user,  please install Cygwin. Yes, it is possible
+to make  it all  work without  it, but some  of the  configuration can
+become  less reliable.  This tutorial  will take  you by  installation
+procedure step by step.
+
+If you  are a linux  user I  am going to  assume that you  either have
+pre-installed Emacs (version  24 or higher) or can install  it on your
+preferred distribution. Same goes for  Ispell or other spelling engine
+of your choice with dictionaries of your choice.
+
+Mac/Apple products... I honestly have no  idea. I have never worked on
+your platform. If  anyone is actually experienced or  could confirm to
+what extent Linux and
+
+Mac/Apple part correctly overlap I would be indebted.
+
+Part for Windows:  Go to Cygwin[1] homepage and  select installer that
+corresponds to  your system (32 or  64 bit Windows, if  you are unsure
+select 32 bit). Proceed with the download.
+
+Run program, confirm that you actually want to run the installer.
+
+Click 'Next'. In  the next window stay with  preselected 'Install from
+internet'.
+
+Stay  with recommended  option for  all  users unless  you use  shared
+machine or don't have administrator access.
+
+Select main folder for installation.
+
+Stay with direct connection unless connection exceptions mentioned are
+valid in your case.
+
+Select http://cygwin.mirror.constant.com[2] as a source of software.
+
+Now it  may tak  a moment to  load, afterwards you  will see  a larger
+window  with  option  to  select  components  of  Linux  you  want  to
+install.  Search for  the following:  emacs, emacs-w32,  aspell (along
+with dictionaries you want) and change their status by clicking on the
+'recycle'  symbol (the  two  wiggly arrows).  You  should get  version
+numbers. Make sure Emacs is 24.4-2 or newer.
+
+Proceed with  the installation.  It may  take a  while but  unless you
+operate under very slow connection and/or  old computer it will all be
+over in less then 10 minutes.
+
+Agree  to make  short-cuts  that  you want,  I  stayed  with both  for
+convenience.
+
+Congratulations! You  are now  a Windows user  with capability  to run
+some of the Linux programs!
+
+Open  Cygwin  Terminal from  one  of  the short-cuts  or  installation
+directory and you  will see a command line interface.  It differs from
+normal Windows  command line or  Powershell, but don't worry  about it
+even if you are absolute newbie. You  can learn a lot about both Linux
+and Windows  command line from  Zed Shaw Command Line  Crash Course[3]
+. Just  remember to make  Linux section  in Cygwin terminal,  but even
+that bit  is not really a  strict requirement. I will  explain command
+line as I will progress.
+
+Feel free to ask questions :D.
+
+Now, I can assume you have Emacs  ready for action. For both Linux and
+Windows users I want to make the following command in their terminals:
+
+     emacs&
+
+With non-obligatory  '&' at the end.  It is just a  command line trick
+that allows  you to  run something  in the terminal  and not  block it
+while said program runs. You can test it by closing Emacs and doing it
+without the '&' at the end.
+
+You will  be welcomed  by initial Emacs  screen, before  going through
+with  next  part of  material  I  would like  you  to  go through  the
+tutorial.  'C'  is a  short-cut  for  left  Control  key and  'M'  for
+(usually) left Alt  key. You don't need  all, but to get  the gist try
+going as far  as you can without feeling strained.  Learning curve can
+differ from person to person, so don't worry if you get lost. If there
+will be such a  need I will provide a cheat-sheet  of 'top N' commands
+and key combinations.
+
+It may  seem like a  chore, but  to use it  in any proficient  way you
+would have to do it anyway. Take  your time, I hope I will finish next
+(more RPG oriented) part by tomorrow.

@@ -1,0 +1,49 @@
+#+STARTUP: indent
+#+STARTUP: hidestars
+#+STARTUP: oddeven
+ 
+* Beginning of the adventure
+** Stuff to tell all of them
+General reminder about last session.
+** Stuff about NPC that Rogue was tracking
+*** Real part for GM
+It was actually a person X, he hides his identity and importance by posing as
+his own right-hand man.
+*** What to tell player
+He saw him at the village two weeks ago. He arrived when they were departing.
+** Current queue at guard duty.
+Usual order is Fighter, Rogue, Wizard, Cleric
+** Spells prepared by Wizard
+<paste normal selection, add differences as required>
+* First plot point
+** List of NPCs
+*** Goon 1
+Stats + abilities
+*** Goon 2
+Stats + abilities
+**** Side-note about his equipment
+He has a cursed dagger, let Cleric identify it or find them before ambush if
+he passes Will Save DC 18
+*** Their main guy
+Stats + abilities
+**** That said guy can tell them in case of capture
+Torture is not really needed, success on intimidation will yield information about
+note written with a cipher he had to deliver and information about person X who
+bought their services. They were tasked with capturing at least one of the PCs
+and delivering him to the <place-holder for name>
+* Next point
+** If they will not capture the main guy
+If they manage to knock him out, they will find a note with a cypher.
+Rogue can get partial success with DC 10, Full with DC 17
+* Ending
+** Personal notes
+Ask players about how they enjoyed the adventure. Get feedback and ask if the
+pacing got better in the scope of last 5 sessions (major complaint at the start
+of the campaign).
+** Declarations for next session
+*** Fighter
+*** Cleric
+*** Wizard
+*** Rogue
+** Lore they might learned and might come up in the next session.
+** XP and general questions about incoming advancement.

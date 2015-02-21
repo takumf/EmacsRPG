@@ -1,0 +1,207 @@
+#+STARTUP: indent
+#+STARTUP: hidestars
+#+STARTUP: oddeven
+ 
+* What we have learned so far
+** About Emacs
+We got some basic commands that allows us to do all of the things
+that can be accomplished in any other editor. What may have been
+a bit new, is the fact we got the mini-buffer and basically no use
+for mouse. I know that this can be clunky at the start, but trust
+me that just like in most other cases, effort you put into learning
+yields great increase in the productivity. It is not to say that
+other text-editors are bad or could not be used just as easily, but
+there is one difference: under Emacs making well formatted lists
+(org-mode), own dictionaries, small programs (that work from under
+the text-editor itself!) and similar content requires much more
+work.
+I hope you enjoy it so far. If not, I can only admire your spirit.
+** About org-mode
+This particular tool is not just for making lists. Like most parts
+of Emacs, this is more like a toolbox that encourages experiments
+and learning some of its internal workings so that you can make it
+as personalised and fitting your needs as possible. Most common use
+of org-mode is making TODO lists. But it is not all. With next parts
+of this tutorial you will learn how to interlink your files, make
+your notes more organised and providing you with some (not only)
+org-mode based tools that will make GMing more expedious.
+* What we will learn today
+** Work with org-mode
+Pretty self-explanatory. One of the reasons I made this lesson
+with org-mode is to let you practice a bit more with this (likely)
+new format. Remember that at any point you can ask for help at the
+/r/rpgprograms submission for this lesson or send me a PM if the
+topic will be sent to archive (this means you are reading it quite
+some time into the future. Good to know :D). Not much for now, but
+I feel that some more Emacs fundamentals are in order.
+*** Wait, really? This is it?!
+Actually, no. I want you to complete points below and with newly
+acquired knowledge and skills make your first adventure in with
+org-mode.
+*** What if I need help?
+I have provided you with most of the needed tools in previous
+lesson and this file itself is (IMHO) a pretty good example that
+shows how to use it. But, I understand the different needs.
+ 
+In that case, look for the org-mode manual I have linked in the
+last lesson and try using auto-completion trick I provided within
+next points.
+** Check spelling
+Yes, this part. I made a lot of fuss about installing spell-check
+software and it didn't come up until this point. Now it is your
+chance to learn it with a perfect example: my off-head spelling in
+this document. To make it more of a learning experience, next point
+on the list will contain some deliberate mistakes as well as ones
+that I simply did on account on being a sloppy foreigner.
+Read next sub-point fully before doing the exercise!
+*** How do I do this thing?
+Go into the mini-buffer (M-x, I hope this hint is not needed at
+this point, or rekwired if you will) and type
+ 
+ispell-buffer
+ 
+you will see a new interface on top of the standard Emacs buffer.
+This is where you will proceed with the changes. Hit C-h or ?,
+your choice, and remember the help you will be provided. You can
+invoke it at any point, end the ispell by hitting standard C-g
+combination that will make ispell go away (but changes will stay).
+If you want to undo something, remember that you can undo changes
+commited in reverse order by hitting C-/
+** Emacs split-screens
+This is actually insanely usefull feature for GM (and programmer for
+that matter) that will allow to browse more documents simultaneously.
+*** How do I make vertically splited screen?
+C-x 3
+ 
+Yes, it is all. You will likely see duplicate of file you have had
+open while executing the command listed above. You can switch the
+current buffer by hitting
+ 
+C-x o
+ 
+that will result in cursor jumping from one screen to another.
+*** How do I make horizontally splitted screen?
+C-x 2
+ 
+As above. Same with jumping between screens. Try using them in
+a nested way. To state it explicitly, split screen vertically
+and then split one of them horizontally. You can go as deep as some
+internal Emacs setting allows, likely the one about minimal size
+of screens. For GMing purposes you will likely don't need more then
+3 screens anyway. One for notes, one to swap character sheets and
+the last one where you will keep some programs that we will learn
+how to write in the later parts of the tutorial.
+*** How can I close screens?
+C-x 0
+ 
+This will result in closing currently selected screen.
+ 
+C-x 1
+ 
+This will close ALL screens other then currently selected.
+** How can I work on many files?
+Previous part about splitting screen will become more usefull now,
+when you will start working on multiple files with multiple buffers.
+When you will open all of the files you want, you might want to start
+adjusting screens.
+*** Open/create a file
+C-x C-f
+ 
+Followed by locating a file you want to open. If the file does not
+exist, it will be created, provided you have typed a valid name.
+*** Saving files
+C-x C-s
+ 
+Yes, it is all.
+*** I did not split screen. How do I browse opened files?
+Good question. You will have to use
+ 
+C-x b
+ 
+and either confirm default (last file you were working with),
+start writing a name of file you want to open (if default selection
+is not what you want) or hit TAB and select buffer you wish to
+switch to.
+ 
+It is worth to note, that you can hit TAB at any point, to signalise
+to Emacs (and command line in Cygwin, Linux or plain Windows!) that
+you want it to list all options that apply. Try it out.
+** About the files, how do I move?
+If you went through the tutorial you would know. But I am not
+a dick and will give you now a quick list.
+*** Going down
+C-v
+*** Going up
+M-v
+*** How can I center screen on the cursor?
+C-l
+*** Is it all?
+Mostly. For nearly all of the non-programming stuff you will
+do this is all you will need.
+*** What about PgDn and PgUp?
+They work in the same way as anywhere else. But they are so
+far from other keys (at least at the most keyboards I ever
+used). Take it or leave it.
+** How can I switch Emacs OFF!?
+Oh, good point. Never mentioned it before.
+ 
+C-x C-c
+ 
+And it will quit unless you have some unsaved work.
+Then you will get prompted about what to do.
+* What do I know now?
+** Honestly?
+A lot. Really. With practice you will get fluent and the stuff
+you just learned is about 90% of the combinations of keys and
+commands I use on a daily basis.
+** Not so honestly?
+Still a lot. But you have only scratched the surface by this
+point. Practice, curiosity and experimenting/reading on your
+own will provide you with more of the stuff you need.
+ 
+Having said that, you know about as much as nothing about the
+meat of the Emacs: its own programming language. Emacs Lisp.
+ 
+Even for most Emacs users it is not as obligatory as it seems,
+but without knowing it you know only the mundane parts. Think
+of it in that way: now you have learned cantrips. Real magic
+is built upon knowing them.
+*** Did you lie to me?
+No. I will teach you about it, provided you actually want to
+learn.
+**** Trade secret
+Generally speaking, if you are still interested by this
+point and you are willing to train both fundamentals and
+new things, you are ready. Fact that you are still reading
+is a good sign.
+* What we will learn in the upcomming lessons?
+** More details about org-mode
+Like I said, there is much more. I will show you how I am making
+my own scenarios with use of org-mode and how I am making notes
+so that all the things I want to find easily can be accessed in
+a fast way.
+** Searching through files and buffers
+No matter how awesome your notes are, you have to know how to
+access the information. I will give a short tutorial about the
+basics of regular expressions, searching and obtaining result.
+** Emacs Lisp
+While it is perfectly understandable that your players will want
+to roll for themselves, I don't know if you would like to do so
+for your larger groups of NPCs. This will take a lot of parts, but
+I will show you how you can make a full program in Emacs Lisp that
+will allow you to track state of all of the minions you would in
+any other situation had to manage yourself.
+ 
+To avoid licensing problems and overly elaborate example, I will
+show you how to do it on basic d20 system.
+* The end?
+** I don't want to continue!
+No-one forces you to continue. I hope you will respect the fact
+that I will continue with making further parts of the tutorial.
+ 
+All I want is you to be respectfull of people who will want to
+proceed.
+** I want to continue!
+Good to know. I hope I will resume the tutorial in the next two
+or three days. It would be awesome of you to post the 'homework'
+I assigned at the beginning (your own adventure).
