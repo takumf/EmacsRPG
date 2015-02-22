@@ -16,4 +16,7 @@ There are few reservations regarding .org files:
 * Look at the source of each file by selecting 'raw' at the upper margin of the preview.
 * Experiment with them and remember that they are just templates.
 
+### Questions and interactive means of contact? ###
+
+While I can't guarantee that I will be always accessible, I am almost permanently logged into #rpgprograms at irc.snoonet.org . If you have questions or simply got bored, you can always join.
 
