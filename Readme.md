@@ -10,4 +10,10 @@ Currently under development:
 * Elisp tutorial
 * oWoD and Basic D20 toolboxes.
 
+There are few reservations regarding .org files:
+
+* Open them in your own Emacs! YOu can then generate any other output. Basic one on github is quite ugly.
+* Look at the source of each file by selecting 'raw' at the upper margin of the preview.
+* Experiment with them and remember that they are just templates.
+
 
