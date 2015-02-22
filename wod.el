@@ -77,11 +77,9 @@
 	    (cond ((equal (- *win* *fail*) 0) "Neither success not failure.")
 		  ((> *win* *fail*) "You have succeeded.")
 		  ((< *win* *fail*) "You have failed.")))
-
     (insert "\n\n")))
 
 (defun test ()
   "This function is for testing, simply generates 50 ouputs of roll function with different inputs."
   (dotimes (i 50)
     (roll (+ 1 (random 6)) (random 5) (+ 3 (random 6)) (oddp i))))
-
